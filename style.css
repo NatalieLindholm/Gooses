@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #BAEEFF;
+}
+
+#flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    margin-right: 170px;
+}
+
+.placing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: #fff;
+    font-family: Inder, sans-serif;
+    font-size: 9rem;
+}
+
+.one:hover,
+.two:hover {
+    background-color: #05BAF4;
+}
+
+.one,
+.two {
+    background-color: #00A7DD;
+    color: #fff;
+    border: none;
+    border-radius: 35px;
+    font-family: Inder, sans-serif;
+    margin: 20px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.one {
+    width: 320px;
+    height: 90px;
+    font-size: 4rem;
+}
+
+.two {
+    width: 270px;
+    height: 90px;
+    font-size: 3rem;
+}
+
+.goose {
+    position: absolute;
+    height: 75%;
+    bottom: 0;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
